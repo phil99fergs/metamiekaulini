@@ -1,3 +1,5 @@
+
+
 def paranepara():
 
     c = a * 2
@@ -45,6 +47,9 @@ if __name__ == '__main__':
     a = int(input("Ievadiet kauliņu skaitu(1-5) : "))
     if a > 5:
         print("Maksimāli ir 5 kauliņi.")
+        exit(0)
+    elif a == 0:
+        print("Minimāli ir 1 kauliņš")
         exit(0)
 
     paranepara()
